@@ -5,3 +5,31 @@ GET https://cse341node-samson.herokuapp.com/contacts/62a55e772437910123fc88ef
 GET https://cse341node-samson.herokuapp.com/contacts/62a55e772437910123fc88f0
 
 GET https://cse341node-samson.herokuapp.com/contacts
+
+###
+POST http://localhost:8080/contacts 
+HTTP/1.1 content-type: application/json
+
+{
+            "firstName": "Charles",
+            "lastName": "Jones",
+            "email": "charles.jonesi@gmail.com", 
+            "favoriteColor":"Yellow", 
+            "birthday": "05/09/1967"
+}
+
+###
+PUT http://localhost:8080/contacts/62aa7f8497d7091beef2a118
+HTTP/1.1 content-type: application/json
+
+{
+            "firstName": "Charles",
+            "lastName": "Jonathan",
+            "email": "charles.jonathan@gmail.com", 
+            "favoriteColor":"Yellow", 
+            "birthday": "05/09/1967"
+}
+
+###
+DELETE http://localhost:8080/contacts/62aa7f8497d7091beef2a118 HTTP/1.1
+
