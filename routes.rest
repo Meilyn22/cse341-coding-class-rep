@@ -7,8 +7,8 @@ GET https://cse341node-samson.herokuapp.com/contacts/62a55e772437910123fc88f0
 GET https://cse341node-samson.herokuapp.com/contacts
 
 ###
-POST http://localhost:8080/contacts 
-HTTP/1.1 content-type: application/json
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
 
 {
             "firstName": "Charles",
@@ -19,8 +19,8 @@ HTTP/1.1 content-type: application/json
 }
 
 ###
-PUT http://localhost:8080/contacts/62aa7f8497d7091beef2a118
-HTTP/1.1 content-type: application/json
+PUT http://localhost:8080/contacts/62aa7f8497d7091beef2a118 HTTP/1.1
+content-type: application/json
 
 {
             "firstName": "Charles",
@@ -33,3 +33,29 @@ HTTP/1.1 content-type: application/json
 ###
 DELETE http://localhost:8080/contacts/62aa7f8497d7091beef2a118 HTTP/1.1
 
+###
+POST https://cse341node-samson.herokuapp.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "James",
+    "lastName": "Caleb",
+    "email": "j.caleb@gmail.com", 
+    "favoriteColor":"Pink", 
+    "birthday": "05/09/1940"
+}
+
+###
+PUT https://cse341node-samson.herokuapp.com/contacts/62aa851027f7ac28782e7f01 HTTP/1.1
+content-type: application/json
+
+{
+            "firstName": "Charles",
+            "lastName": "Jonathan",
+            "email": "charles.jonathan@gmail.com", 
+            "favoriteColor":"Yellow", 
+            "birthday": "05/09/1967"
+}
+
+###
+DELETE https://cse341node-samson.herokuapp.com/contacts/62aa855e27f7ac28782e7f02 HTTP/1.1
