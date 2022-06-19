@@ -3,9 +3,9 @@ const swaggerAutogen = require('swagger-autogen')();
 const doc = {
   info: {
     title: 'My API',
-    description: 'Temple API'
+    description: 'Contact API'
   },
-  host: 'https://cse341node-samson.herokuapp.com/',
+  host: 'https://cse341node-samson.herokuapp.com',
   schemes: ['https']
 };
 
