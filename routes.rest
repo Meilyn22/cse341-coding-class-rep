@@ -38,24 +38,24 @@ POST https://cse341node-samson.herokuapp.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "James",
-    "lastName": "Caleb",
-    "email": "j.caleb@gmail.com", 
-    "favoriteColor":"Pink", 
-    "birthday": "05/09/1940"
+    "firstName": "John",
+    "lastName": "Madison",
+    "email": "j.madison@gmail.com", 
+    "favoriteColor":"Red", 
+    "birthday": "05/09/1932"
 }
 
 ###
-PUT https://cse341node-samson.herokuapp.com/contacts/62aa851027f7ac28782e7f01 HTTP/1.1
+PUT https://cse341node-samson.herokuapp.com/contacts/62aa872eb9ed6a9d21e74840 HTTP/1.1
 content-type: application/json
 
 {
-            "firstName": "Charles",
+            "firstName": "Dave",
             "lastName": "Jonathan",
-            "email": "charles.jonathan@gmail.com", 
+            "email": "d.jonathan@gmail.com", 
             "favoriteColor":"Yellow", 
             "birthday": "05/09/1967"
 }
 
 ###
-DELETE https://cse341node-samson.herokuapp.com/contacts/62aa855e27f7ac28782e7f02 HTTP/1.1
+DELETE https://cse341node-samson.herokuapp.com/contacts/62aa872eb9ed6a9d21e74840 HTTP/1.1
