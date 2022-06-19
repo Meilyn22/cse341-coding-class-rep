@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Contact API'
   },
-  host: 'https://cse341node-samson.herokuapp.com',
+  host: 'cse341node-samson.herokuapp.com',
   schemes: ['https']
 };
 
